@@ -19,4 +19,5 @@ subject2 = Subject.create!(name: "Second Subject", position: 2, visible: false)
 ## Pages
 
 Page.create!(name: "First Page", content: "First page content", position: 1,  visible: false)
+Page.create!(name: "Second Page", content: "Second page content", position: 2,  visible: false)
 
