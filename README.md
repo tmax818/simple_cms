@@ -85,4 +85,6 @@ only actions with templates
 
   branched from kevin's solution
 
-  
+"Fat model, skinny controller."
+
+
