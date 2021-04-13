@@ -36,7 +36,7 @@ add migrations:
 
 ```bash
 rails g model Subject name:string position:integer visible:boolean
-rails g model Page name:string permalink:sting position:integer visible:boolean content:text
+rails g model Page name:string permalink:string position:integer visible:boolean content:text
 ```
 
 
