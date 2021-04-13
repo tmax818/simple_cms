@@ -98,3 +98,17 @@ rails g model Page name:string permalink:string position:integer visible:boolean
 
 rails g controller Subjects index show new edit delete
 rails g controller Pages index show new edit delete
+
+add:
+
+```ruby
+
+def create
+end
+
+def update
+end
+
+def destroy
+end
+```
