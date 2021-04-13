@@ -85,4 +85,6 @@ only actions with templates
 # Start branch
 
 
-  
+  - create user
+
+rails g model User first_name:string last_name:string email:string
