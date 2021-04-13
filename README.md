@@ -85,6 +85,16 @@ only actions with templates
 # Start branch
 
 
-  - create user
+- create user
 
 rails g model User first_name:string last_name:string email:string
+
+- create pages and subjects 
+
+rails g model Subject name:string position:integer visible:boolean
+rails g model Page name:string permalink:string position:integer visible:boolean content:text
+
+- create controllers
+
+rails g controller Subjects index show new edit delete
+rails g controller Pages index show new edit delete
